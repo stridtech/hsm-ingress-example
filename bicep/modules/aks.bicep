@@ -37,7 +37,7 @@ resource aks 'Microsoft.ContainerService/managedClusters@2024-03-02-preview' = {
     dnsPrefix: dnsPrefix
     ingressProfile: {
       webAppRouting: {
-         enabled: true
+         enabled: false
       }
     }
     networkProfile: {
